@@ -1,0 +1,143 @@
+* {
+    padding : 0;
+    margin : 0;
+    box-sizing: border-box;
+    list-style: none;
+    overflow: hidden;
+    /border: 1px red solid;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+body{
+    font-family: "Bookman Old Style";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    width: 100vw;
+    box-shadow: 0 0 50px 5px rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5vh;
+}
+
+header img{
+    height: 8vh;
+}
+
+header ul{
+    display: flex;
+}
+
+
+header ul li{
+    font-size: 20px;
+    padding: 0px 40px;
+    display: flex;
+    align-items: center;
+    height:100%;
+    transition: 0.5s ease-in-out;
+}
+
+header ul li:hover{
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+header .search img {
+    height: 25px;
+    margin-right: 10px;
+}
+
+header .search {
+    display: flex;
+    align-items: center;
+
+}
+
+header .search input {
+    width: 6vw;
+    border-radius: 20px;
+    padding: 10px 20px;
+    transition: 0.5s ease-in-out;
+    border: none;
+    background: rgba(0,0,0,0.05);
+}
+
+header .search input:hover,
+header .search input:focus {
+    width: 20vw;
+    background: rgba(0,0,0,0.1);
+}
+
+header .search input:focus {
+    outline: none;
+}
+
+header .search input,
+header .search a {
+    margin: 10px;
+}
+
+main img{
+    height:20vw;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cerceau{
+    background: url('../assets/cerceau.png') center/100%;
+    height: 80vh;
+    width: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: cerceau 60s linear infinite;
+}
+
+.bvn{
+    animation: cerceau-inverser 60s linear infinite;
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.5s ease-in-out;
+    text-align: center;
+}
+
+.desc{
+    font-weight: 2px;
+    font-size: 0px;
+    transition: 0.5s ease-in-out;
+}
+
+.bvn:hover{
+    font-size: 50px;
+    letter-spacing: 8px;
+}
+
+.bvn:hover > .desc{
+    font-size: 30px;
+    letter-spacing: 0px;    
+}
+
+  
+@keyframes cerceau{
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes cerceau-inverser{
+    100% {
+        transform: rotate(-360deg)
+    }
+}
