@@ -4,7 +4,7 @@
     box-sizing: border-box;
     list-style: none;
     overflow: hidden;
-    /*border: 1px red solid;*/
+    /border: 1px red solid;
 }
 
 a {
@@ -76,4 +76,43 @@ header .search input:focus {
 header .search input,
 header .search a {
     margin: 10px;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    
+}
+main ul{
+    display: flex;
+    flex-direction: column;
+}
+main ul li{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    width: 90vw;
+    height: 15vh;
+    border-radius: 20vh;
+    border : lightgray 0.2px solid;
+    margin: 2vh 0vh;
+}
+
+main ul li img.presentation{
+    display: flex;
+    height: 20vh;
+    flex-direction: column;
+}
+
+main ul li img.panier{
+    border-radius: 20%;
+    background-color: wheat;
+    padding: 1vh;
+    display: flex;
+    height: 4vh;
+    flex-direction: column;
+}
+
+main ul li h2{
+    min-width: 20vw;
 }
