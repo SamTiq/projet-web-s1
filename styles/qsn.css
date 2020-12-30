@@ -77,3 +77,37 @@ header .search input,
 header .search a {
     margin: 10px;
 }
+
+body{
+    overflow-y: scroll;
+}
+
+h1 {text-align: center;}
+
+div#artiste{
+    display: flex;
+    margin: 5vw;
+}
+
+div#artiste h2{
+    margin-bottom: 3vw;
+}
+
+div#artiste img{
+    width: 60vw;
+    margin-right: 5vw;
+}
+
+div#dev{
+    display: flex;
+    margin: 5vw;
+}
+
+div#dev h2{
+    margin-bottom: 3vw;
+}
+
+div#dev img{
+    width: 60vw;
+    margin-left: 5vw;
+}
