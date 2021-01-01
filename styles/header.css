@@ -74,7 +74,7 @@ header .search input {
 header .search input:hover,
 header .search input:focus {
     width: 20vw;
-    background: rgba(0,0,0,0.1);
+    background: rgba(102, 102, 102, 0.767);
 }
 
 header .search input:focus {
