@@ -48,7 +48,7 @@ header ul li{
 }
 
 header ul li:hover{
-    background-color: rgba(0, 0, 0, 0.05);
+    background-color: rgba(107, 107, 107, 0.199);
 }
 
 header .search img {
@@ -74,7 +74,7 @@ header .search input {
 header .search input:hover,
 header .search input:focus {
     width: 20vw;
-    background: rgba(102, 102, 102, 0.767);
+    background: rgba(0,0,0,0.1);
 }
 
 header .search input:focus {
