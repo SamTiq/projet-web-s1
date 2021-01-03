@@ -2,30 +2,30 @@ h1 {
     text-align: center;
 }
 
-div#artiste{
+div.artiste{
     display: flex;
     margin: 5vw;
 }
 
-div#artiste h2{
+div.artiste h2{
     margin-bottom: 3vw;
 }
 
-div#artiste img{
+div.artiste img{
     width: 20vw;
     margin-right: 5vw;
 }
 
-div#dev{
+div.dev{
     display: flex;
     margin: 5vw;
 }
 
-div#dev h2{
+div.dev h2{
     margin-bottom: 3vw;
 }
 
-div#dev img{
+div.dev img{
     width: 60vw;
     margin-left: 5vw;
 }
