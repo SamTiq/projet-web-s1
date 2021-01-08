@@ -57,3 +57,20 @@ main{
         transform: rotate(-360deg)
     }
 }
+
+@media (max-width: 1350px) {
+    
+    .cerceau {
+        height: 60vh;
+        width: 60vh;
+    }
+}
+
+@media (max-width: 780px) {
+    
+    .cerceau {
+        height: 40vh;
+        width: 40vh;
+    }
+}
+
