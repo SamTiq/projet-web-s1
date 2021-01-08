@@ -16,11 +16,13 @@ main ul li{
     border-radius: 20vh;
     border : lightgray 0.2px solid;
     margin: 2vh 0vh;
+    overflow: hidden;
 }
 
 main ul li img.presentation{
     display: flex;
     height: 20vh;
+    width: 20vh;
     flex-direction: column;
 }
 
