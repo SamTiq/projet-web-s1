@@ -1,31 +1,27 @@
-h1 {
+main h1 {
     text-align: center;
+    font-size: 48px ;
 }
 
-div.artiste{
+main div{
     display: flex;
     margin: 5vw;
 }
 
-div.artiste h2{
+main div h2{
     margin-bottom: 3vw;
+    font-size: 36px;
 }
 
-div.artiste img{
+main div img{
     width: 20vw;
+    height: 41vw;
     margin-right: 5vw;
+    margin-top: 15vh;
 }
 
-div.dev{
+main div.texte{
     display: flex;
-    margin: 5vw;
-}
-
-div.dev h2{
-    margin-bottom: 3vw;
-}
-
-div.dev img{
-    width: 60vw;
-    margin-left: 5vw;
+    flex-direction: column;
+    font-size: 28px;
 }
