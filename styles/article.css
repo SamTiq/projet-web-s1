@@ -1,21 +1,25 @@
-main #Produit{
+*{
+    /border : solid 1px red
+}
+
+main .Produit{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 
-main #link{
-    width: 28vw;
-    margin: 0vw 3vw;
+main video{
+    max-width: 30%;
+    height: auto;
 }
 
-main #desc{
+main .desc{
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
     
 }
-main #desc a{
+main .desc a{
     border: 1px black solid;
     font-size: 20px;
     border-radius: 20px;
@@ -25,18 +29,18 @@ main #desc a{
     
 }
 
-main #desc p{
+main .desc p{
     font-size: 24px;
 
     
 }
 
-main #desc ul li{
+main .desc ul li{
     font-size: 20px;
     margin-bottom: 2vh;
 }
 
-main #desc input{
+main .desc input{
     font-size: 16px;
     padding-bottom: 10vh;
     border-radius: 4px;
@@ -45,3 +49,14 @@ main #desc input{
     text-decoration: black;
 }
 
+main .for_more{
+    display: flex;
+}
+
+main .for_more img{
+    width: 10vw;
+}
+
+main .for_more h3{
+    margin-top: 4vw;
+}
