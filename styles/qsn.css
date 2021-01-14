@@ -18,6 +18,7 @@ main div img{
     height: 41vw;
     margin-right: 5vw;
     margin-top: 15vh;
+    border-radius: 10px;
 }
 
 main div.texte{
